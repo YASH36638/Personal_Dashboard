@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-APP</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <h2>Weather app</h2>
+    <div id="container">
+        <div id="main">
+            <form method="POST" onsubmit="Weather_report(event)">
+           
+            <p style="color:#E0FFFF" ><label for="City-name" id="l1" style="font-size:xx-large;">Enter Your City Name:</label></p>
+            
+                <input style="font-size:large;" list="cities" id="City-name" name="City-name" placeholder="Choose or type...">
+                
+                    <datalist id="cities">
+                          <option value="Nagpur"></option>
+                          <option value="Mumbai"></option>
+                          <option value="Pune"></option>
+                          <option value="Manglore">
+                    </datalist>
+                <br>
+                <br>
+            <button style="font-size:medium; cursor: grabbing;" type="submit">See Weather ☁️</button>
+        </form>
+        </div>
+        <p id="we-repo"></p>
+<div id="Img"></div>
+    </div>
+    
+    <script src="weather.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-app</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <form method="POST" onsubmit="add(event)">
+        
+           <div class="layout">
+            <div id="main">
+            <input id="task" name="task" placeholder="Enter the task" >
+            <button type="submit">Add task</button></div>
+            <div class="tasklist">
+                <div class="tasks"></div>
+            </div>
+           </div>
+        
+    </form>
+    <script src="todo.js"></script>
+</body>
+</html>

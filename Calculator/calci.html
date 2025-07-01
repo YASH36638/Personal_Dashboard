@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calci.css">
+</head>
+<body>
+    <div id="calci">
+    <div id="display"></div>
+        <div id="row">
+        <button id="7" onclick="cal(7)">7</button>
+        <button id="8" onclick="cal(8)">8</button>
+        <button id="9" onclick="cal(9)">9</button>
+        <button id="mul" onclick="cal('*')">*</button>
+        <button id="AC" onclick="cleary()">Ac</button>
+    </div>
+    <div id="row">
+    <button id="4" onclick="cal(4)">4</button>
+    <button id="5" onclick="cal(5)">5</button>
+    <button id="6" onclick="cal(6)">6</button>
+    <button id="div" onclick="cal('/')">/</button>
+    <button id="del1" onclick="del1()">←</button>
+    </div>
+    <div id="row">
+    <button id="1" onclick="cal(1)">1</button>
+    <button id="2" onclick="cal(2)">2</button>
+    <button id="3" onclick="cal(3)">3</button>
+    <button id="sub" onclick="cal('-')">-</button>
+    <button id="mod" onclick="cal(`%`)">%</button>
+    </div>
+    <div id="row">
+    <button id="add" onclick="cal()">+</button>
+    <button id="0" onclick="cal(0)">0</button>
+    <button id="deci" onclick="cal('.')">.</button>
+    <button id="enter" onclick="evalu()" >=</button>
+
+    </div>
+    </div>
+    <script src="calci.js"></script>
+</body>
+</html>

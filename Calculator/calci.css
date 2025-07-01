@@ -1,0 +1,50 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+#calci {
+  width: 90vw;             
+  max-width: 350px;         
+  aspect-ratio: 3/4;        
+  border: 8px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  display: grid;
+  place-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  flex-grow: 1;
+  height: 100%;
+  width: 100;
+}
+
+button {
+  padding: 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #d0d0d0;
+}

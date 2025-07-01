@@ -1,0 +1,58 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:normal;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size:larger;
+    background-color: rgb(255, 255, 255);
+}
+#container
+{
+    font-style: italic;
+    border: 5px solid ;
+    border-radius: 20px;
+    width:80%;
+    max-width: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #001f3f;
+    
+    
+}
+form{
+    margin-bottom: 10px;
+}
+button
+{
+    margin-left: 50px;
+    width: 200px;
+    background-color: #00bcd4;
+    border-radius: 20px;
+}
+#main
+{
+    margin-top: 10px;
+    
+}
+#Img
+{
+    height: 300px; 
+    width:100%;
+    margin-bottom: 20px;
+}
+#we-repo
+{
+    height: 100px; 
+    cursor: pointer;
+}
+#City-name
+{
+    width: 300px;
+    height:30px;
+    border-radius: 20px;
+}
