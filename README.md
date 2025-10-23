@@ -16,6 +16,7 @@ Welcome to your **Personal Dashboard** – a central hub combining multiple usef
 📂 **Main files for Dashboard:**
 - `Personal_dashboard/index.html`
 - `Personal_dashboard/prs_dshb.css`
+- check live https://yash36638.github.io/Personal_Dashboard/
   
 ## 🛠️ Tech Stack & Tools  
 
