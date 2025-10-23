@@ -7,7 +7,6 @@ imgDiv.style.backgroundSize = "contain";
 imgDiv.style.backgroundPosition = "center";
 imgDiv.style.backgroundRepeat = "no-repeat";
 let para=document.getElementById("we-repo");
-// const apiKey = '76f92af14e444478be190809252606';
 
 const Weather_report = async(event) =>
 {
@@ -17,7 +16,13 @@ try {
 let city=document.getElementById("City-name").value;
 const key = await keyPromise; 
 
+
+
+
+
+
 const URL = `http://api.weatherapi.com/v1/current.json?key=${key}&q=${city}`;
+
 
 let response=await fetch(URL);
 console.log(response);
